@@ -1,0 +1,126 @@
+/* CSS du body */
+body {
+  margin: 0;
+  min-width: 250px;
+}
+
+/* Include the padding and border in an element's total width and height */
+* {
+  box-sizing: border-box;
+}
+
+.mytodotext{
+  margin: 10px;
+}
+
+/* Style the header */
+.header {
+  background-color: #3a7ee4;
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+}
+
+/* Clear floats after the header */
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Pour le couleur et largeur max de la barre qui sera en gris 
+et le texte ebn blanc*/
+#myProgress {
+  width: 100%;
+  background-color: #ddd;
+}
+
+/* Pour le couleur et largeur max de la barre de progression qui sera en vert 
+et le texte en blanc*/
+#myBar {
+  width: 0%;
+  height: 30px;
+  background-color: #04AA6D; 
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+
+/* CSS appliqué quand la case sera coché */
+.mychckbox:checked {
+  border: 1px solid blue;
+  border-radius: 10px;
+}
+/* Éléments cases à cocher cochés */
+.mychckbox {
+  /* Doubler la taille des Checkboxes */
+  -ms-transform: scale(2); /*  Pour IE */
+  -moz-transform: scale(2); /* Pour FF */
+  -webkit-transform: scale(2); /* Pour Safari and Chrome */
+  -o-transform: scale(2); /* Pour Opera */
+  transform: scale(2);
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 5%;
+}
+/*Pour mettre de l'espacement entre les checkkox*/
+.mycontent{
+  margin: 20px;
+}
+/*Pour mettre de l'espacement entre la checkbox et la tâche*/
+.my_label{
+  margin: 0px;
+}
+/*CSS de base du bouton reset avec les couleurs et alignement du texte*/
+.my_reset_btn {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1.6rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: #55B1EE;
+    box-shadow: inset 2px 2px 3px #46C0D8,
+                inset -2px -2px 3px #46C0D8;
+}
+/*CSS du bouton reset qu'on fait un mouseover(on passe notre souris sur le bouton)*/
+.my_reset_btn:hover {
+    background-color: #469ED8;
+}
+
+/* le CSS couleur, margement et alignement des textes de l'élément HTML dont la classe est nommée -my_add_btn- */
+.my_add_btn {
+  padding: 10px;
+  width: 25%;
+  background: #d9d9d9;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+/*la couleur s'applique quand on fait un mouseover sur l'element HTML dont la classe est nommée -my_add_btn-*/
+.my_add_btn:hover {
+  background-color: #bbb;
+}
+
+
+/* CSS de l inpuut pour ajouter une tâche */
+.my_add_input {
+  margin: 0;
+  border-radius: 0;
+  width: 75%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+
+/* CSS deu bouton X à droite du label, cette btn sert à supprimer une tâche */
+.sppr_btn {
+  margin-left: 10px;
+}
