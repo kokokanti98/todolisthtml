@@ -46,12 +46,12 @@ et le texte en blanc*/
   color: white;
 }
 
-/* CSS appliqué quand la case sera coché */
+/* CSS appliquÃ© quand la case sera cochés */
 .mychckbox:checked {
   border: 1px solid blue;
   border-radius: 10px;
 }
-/* Éléments cases à cocher cochés */
+/* Ã‰lÃ©ments cases Ã  cocher cochés */
 .mychckbox {
   /* Doubler la taille des Checkboxes */
   -ms-transform: scale(2); /*  Pour IE */
@@ -95,7 +95,7 @@ et le texte en blanc*/
 .my_add_btn {
   padding: 10px;
   width: 25%;
-  background: #d9d9d9;
+  background: #EEE3D7;
   color: #555;
   float: left;
   text-align: center;
@@ -106,7 +106,7 @@ et le texte en blanc*/
 }
 /*la couleur s'applique quand on fait un mouseover sur l'element HTML dont la classe est nommée -my_add_btn-*/
 .my_add_btn:hover {
-  background-color: #bbb;
+  background-color: #D5CABD;
 }
 
 
@@ -120,7 +120,7 @@ et le texte en blanc*/
   font-size: 16px;
 }
 
-/* CSS deu bouton X à droite du label, cette btn sert à supprimer une tâche */
+/* CSS deu bouton X Ã  droite du label, cette btn sert Ã  supprimer une tâche */
 .sppr_btn {
   margin-left: 10px;
 }
