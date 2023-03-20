@@ -1,6 +1,4 @@
 # Un site web avec une TO DO Liste   
-  
-## Le lien pour la version en ligne est [ici](https://mytodolisthtml.koko.best/) 
 
 ## Techno utilisé:
 
